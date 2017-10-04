@@ -1,0 +1,8 @@
+.container, .container-fluid
+  transition(width transition-duration transition-timing-function)
+
+a, .btn
+  transition(all transition-duration transition-timing-function)
+  &:focus, &:active:focus, &.active:focus, &.focus, &:active.focus, &.active.focus
+    outline none
+
