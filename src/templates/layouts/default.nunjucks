@@ -9,7 +9,6 @@
   <title>{%if pageTitle != '' %} {{ pageTitle }} | {% endif %} Front-end web development Bootstrap 4 starter</title>
 
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/app.min.css">
 
