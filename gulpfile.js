@@ -171,5 +171,5 @@ gulp.task ('watch', function () {
 });
 
 // Gulp default
-gulp.task('default', ['nunjucks', 'scripts', 'styles', 'browser-sync', 'watch']);
+gulp.task('default', ['scripts', 'styles', 'nunjucks', 'browser-sync', 'watch']);
 
