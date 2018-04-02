@@ -16,8 +16,8 @@
     "!src/js/vendors/**/*",
     "!src/maps",
     "!src/maps/**/*",
-    "!src/atylus",
-    "!src/atylus/**/*",
+    "!src/stylus",
+    "!src/stylus/**/*",
     "!src/templates",
     "!src/templates/**/*"
   ],
