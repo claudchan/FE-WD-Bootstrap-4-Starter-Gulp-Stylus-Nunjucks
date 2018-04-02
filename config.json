@@ -10,12 +10,19 @@
     "src/js/vendors/vue.min.js",
     "src/js/vendors/**/*.js"
   ],
+  "buildFilesFoldersCopy": [
+    "src/**/*/",
+    "!src/js/vendors",
+    "!src/js/vendors/**/*",
+    "!src/maps",
+    "!src/maps/**/*",
+    "!src/atylus",
+    "!src/atylus/**/*",
+    "!src/templates",
+    "!src/templates/**/*"
+  ],
   "buildFilesFoldersRemove": [
     "build/**/readme.txt",
-    "build/stylus/",
-    "build/js/!(*.min.js)",
-    "build/templates/",
-    "build/maps/",
     "build/**/*.map"
   ]
 }
